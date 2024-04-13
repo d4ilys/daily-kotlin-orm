@@ -17,7 +17,7 @@ Kotlin 扩展方法、扩展属性 、DSL、Smart Cast、Inline Reified 等等�
 
 虽然Kotlin的语法非常的优美，在某些方面甚至比C#还好用，比如**扩展属性**、**Smart Cast** 但是呢受限于JVM，对泛型的支持还是太差。
 
-inline reified 可以获取泛型的真实类型，但是要求类中相关的成员变量必须开放，这就造成了污染。
+inline reified 可以获取泛型的真实类型，但是要求类中相关的成员变量必须开放，这就造成了污染 并且想要获取JAVA中的泛型类型就非常难，例如 T 的类型为 List<String> ，想要获取List中的String得费点功夫。
 
 所以C#依然无敌，真泛型 表达式目录树 牛逼的反射 Unsafe ....
 
