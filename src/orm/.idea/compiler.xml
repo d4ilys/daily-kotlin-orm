@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="test01" />
         <module name="core" />
         <module name="kotlin-orm-provider-mysql" />
-        <module name="demo1" />
       </profile>
     </annotationProcessing>
   </component>

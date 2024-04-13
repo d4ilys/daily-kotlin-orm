@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0806e09-50f6-4f89-82db-3c5f5f6aaeaf" name="更改" comment="" />
+    <list default="true" id="d0806e09-50f6-4f89-82db-3c5f5f6aaeaf" name="更改" comment="编写README" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,14 +54,17 @@
     "Maven.core [clean].executor": "Run",
     "Maven.core [deploy].executor": "Run",
     "Maven.core [install].executor": "Run",
+    "Maven.demo1 [compile].executor": "Run",
     "Maven.kotlin-orm-core [install].executor": "Run",
     "Maven.kotlin-orm-provider-mysql [install].executor": "Run",
     "Maven.test [install].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS 重要消息",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Program/Release/Kotlin/daily-kotlin-orm/src/orm/demo1/pom.xml",
+    "last_opened_file_path": "D:/Program/Release/Kotlin/daily-kotlin-orm/src/orm/test/demo1/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,10 +77,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program\Release\Kotlin\daily-kotlin-orm\src\orm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program\Release\Kotlin\daily-kotlin-orm\src\orm\tests" />
+      <recent name="D:\Program\Release\Kotlin\daily-kotlin-orm\src\orm" />
+      <recent name="D:\Program\Release\Kotlin\daily-kotlin-orm\src\orm\test" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
-      <module name="demo1" />
+      <module name="test01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,12 +147,40 @@
       <workItem from="1712915262491" duration="15000" />
       <workItem from="1712915290069" duration="35000" />
       <workItem from="1712918687269" duration="10000" />
-      <workItem from="1712918744948" duration="73000" />
+      <workItem from="1712918744948" duration="352000" />
+      <workItem from="1712970093729" duration="136000" />
+      <workItem from="1712970242024" duration="64000" />
+      <workItem from="1712970316678" duration="230000" />
+      <workItem from="1712970556250" duration="2148000" />
     </task>
+    <task id="LOCAL-00001" summary="编写README">
+      <option name="closed" value="true" />
+      <created>1712972927071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712972927071</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="编写README" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写README" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

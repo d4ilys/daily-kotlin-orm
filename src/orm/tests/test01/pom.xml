@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.daily.orm</groupId>
-    <artifactId>demo1</artifactId>
+    <artifactId>test01</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 

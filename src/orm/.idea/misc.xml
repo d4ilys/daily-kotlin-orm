@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/provideres/kotlin-orm-provider-mysql/pom.xml" />
         <option value="$PROJECT_DIR$/demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/test/demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/tests/test01/pom.xml" />
       </list>
     </option>
   </component>

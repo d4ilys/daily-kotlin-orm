@@ -16,11 +16,11 @@ import com.daily.orm.core.provider.where
 
 val orm: IRainbowSql = RainbowSql.builder()
     .useDbType(DbType.MySql)
-    .useSource("192.168.1.123:3306", "erp_multimedia", "root", "LemiMysql@123.")
+    .useSource("192.168.1.123:3306", "erp_multimedia", "root", "@123.")
     .build();
 
-fun main() {
-    testCodeFirst()
+fun main() { 
+    testDelete()
 }
 
 fun testSelect() {
@@ -35,6 +35,7 @@ fun testSelect() {
         .where { t1::id.eq(123) and t2::name.contains("京") }
         .count { count = it }
         .toSql()
+    println(sql)
 }
 
 fun testUpdate() {
